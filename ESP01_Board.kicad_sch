@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "ESP01 Board")
+    (date "2024-06-12")
+    (rev "Rev 1.0")
+    (company "Alan Masutti")
+  )
+
   (lib_symbols
     (symbol "74xGxx:74LVC2G04" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 7.62 0)
@@ -2124,7 +2131,7 @@
     (uuid ff81e44f-0e9f-4c31-94de-0b59fefda083)
   )
 
-  (label "Rno" (at 165.1 168.91 180)
+  (label "Rno" (at 165.1 168.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 246bcdbd-8d4a-4ff7-aabc-fb0c43ab4e21)
   )
