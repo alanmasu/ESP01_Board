@@ -55,30 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|131797037|88697596|32a8e0dd-9a4a-427f-a21b-e47b6f02a315|45a57502-7b98-40a2-9a2e-dbbee591474d",
-        "lib_footprint_issues|131124236|91772595|ca1d712d-5bd2-4109-8400-e35910e246f5|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|134442200|95046800|308abdea-eefd-41b1-8565-5243d90c7492|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|139496800|91772595|3ee0c6ae-80bd-4129-a1c5-82edc30f4c3c|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|140436600|83566000|14a03492-a2db-4a49-8d9f-20f8d1926a96|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|141732000|91795600|6e452894-328f-48c3-b91f-0a0c8cd75e6b|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|145703836|94869395|86786eb4-f38b-4d35-9fa5-9d56dbe189f2|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|147100836|91287995|e3f8ffc5-407c-4808-95ac-b94698ceb39d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|148650236|83337795|0062ad71-91e3-4e14-9e54-4ebb93ffd654|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|148650236|85877795|b503ff75-7194-40be-b976-0ad913ff6fb3|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|148650236|88417795|f48b1ad5-ab47-48e0-a026-b9eb0b937aaa|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|150802886|91287995|000ee2f6-419a-4e06-9c34-3eaae8231871|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|151114036|94869395|d15644ca-a709-480e-a0be-183380e8826d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|152358636|83161287|3c4270ef-21cb-4589-b267-9a592ce2c031|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|152358636|85903195|50e1ea47-eff0-4767-8c15-6e3b28179af3|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|152358636|88647687|12d66a58-d481-4750-bf11-737e1d077f81|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|154504936|88747995|00b1833b-b9a3-47ed-b657-527d61d8a8ea|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|156397236|94869395|91b7143e-3964-4e01-a6c4-fe56bf5a490d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|158206986|88747995|3db380d3-db54-4876-b7ed-8e3f4607f4b6|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|161909036|88747995|38fce2b8-240b-4f4e-b095-047ff135643a|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|168148000|105486200|13ba5fd0-b5be-40f0-9bc6-a927bbe9f386|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|133597036|91772595|32a8e0dd-9a4a-427f-a21b-e47b6f02a315|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -161,7 +138,7 @@
           "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": true,
+          "td_ontrackend": false,
           "td_onviapad": true
         }
       ],
@@ -173,7 +150,7 @@
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_round_shape",
-          "td_width_to_size_filter_ratio": 0.8
+          "td_width_to_size_filter_ratio": 0.7
         },
         {
           "td_curve_segcount": 7,
@@ -182,7 +159,7 @@
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_rect_shape",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 0.7
         },
         {
           "td_curve_segcount": 7,
@@ -191,7 +168,7 @@
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_track_end",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 0.7
         }
       ],
       "track_widths": [
@@ -205,12 +182,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.6,
+          "drill": 0.3
         },
         {
-          "diameter": 1.8,
-          "drill": 0.9
+          "diameter": 1.2,
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false
